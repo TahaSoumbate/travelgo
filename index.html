@@ -9,71 +9,97 @@
   <body>
     <!-- header -->
     <header
-      class="fixed top-0 z-50 left-0 w-full items-center flex justify-between px-5 md:px-32 py-8 bg-white shadow-md"
-    >
-      <h1 class="font-bold text-xl">
-        Travel<span class="text-orange-500">Go.</span>
-      </h1>
+      class="fixed top-0 z-50 left-0 w-full items-center flex justify-between px-5 md:px-32 py-8 bg-white shadow-md">
+      <h1 class="font-bold text-xl">Travel<span class="text-orange-500">Go.</span></h1>
       <ul class="flex gap-8">
         <li><a href="">Home</a></li>
         <li><a href="">destinations</a></li>
         <li><a href="">About</a></li>
         <li><a href="">Contact</a></li>
       </ul>
-      <button
-        class="bg-orange-500 rounded-lg text-white px-5 py-2 hover:bg-orange-400 transition"
-      >
-        Book Now
-      </button>
+      <button class="bg-orange-500 rounded-lg text-white px-5 py-2 hover:bg-orange-400 transition">Book Now</button>
     </header>
     <!-- header -->
     <main>
       <section
-        class="h-full w-full pl-10 relative pt-32 min-h-[calc(100vh-5rem)] bg-[url('https://picsum.photos/200/300')] bg-cover bg-center bg-no-repeat flex items-center justify-center before:content-[''] before:absolute before:inset-0 before:bg-black/60"
-      >
+        class="h-full w-full pl-10 relative pt-32 min-h-[calc(100vh-5rem)] bg-[url('https://picsum.photos/200/300')] bg-cover bg-center bg-no-repeat flex items-center justify-center before:content-[''] before:absolute before:inset-0 before:bg-black/60">
         <div class="relative z-10">
           <p class="text-orange-500 mb-2">discover the world</p>
           <h2 class="text-white text-5xl font-bold text-balance">
             Explore the world with <span class="text-orange-600">TravelGo</span>
           </h2>
           <p class="text-white text-xs text-pretty w-[50vw] mt-5">
-            Discover amazing places, experience new cultures and create
-            unforgettable memories.
+            Discover amazing places, experience new cultures and create unforgettable memories.
           </p>
-          <button class="rounded-lg bg-orange-500 text-white px-5 py-2 mt-5">
-            explore destinations
-          </button>
+          <button class="rounded-lg bg-orange-500 text-white px-5 py-2 mt-5">explore destinations</button>
         </div>
       </section>
-      <section class="mt-20   ">
+      <section class="mt-20">
         <p class="text-center text-orange-500 mb-2">EXPLORE THE WORLD</p>
-        <h2 class="text-center text-5xl mb-5 ">Popular Destinations</h2>
+        <h2 class="text-center text-5xl mb-5">Popular Destinations</h2>
         <p class="text-center">Discover our most popular travel destinations.</p>
+      </section>
+      <section class="mx-auto px-32 py-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+          <img src="https://picsum.photos/200" alt="Marrakech, Morocco" class="w-full h-56 object-cover" />
+          <div class="p-6">
+            <h2 class="text-lg font-bold text-gray-900">Marrakech, Morocco</h2>
+            <p class="text-sm text-gray-500 mt-1">Discover the beauty of Moroccan culture.</p>
+
+            <div class="flex items-center justify-between mt-6">
+              <p class="text-sm text-gray-500">
+                <span class="text-orange-500 font-bold text-base">$250</span> / person
+              </p>
+              <a href="#" class="text-sm font-semibold text-gray-800 hover:text-orange-500 transition"> Explore → </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+          <img src="https://picsum.photos/200" alt="Paris, France" class="w-full h-56 object-cover" />
+          <div class="p-6">
+            <h2 class="text-lg font-bold text-gray-900">Paris, France</h2>
+            <p class="text-sm text-gray-500 mt-1">Experience the city of love and lights.</p>
+
+            <div class="flex items-center justify-between mt-6">
+              <p class="text-sm text-gray-500">
+                <span class="text-orange-500 font-bold text-base">$450</span> / person
+              </p>
+              <a href="#" class="text-sm font-semibold text-gray-800 hover:text-orange-500 transition"> Explore → </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+          <img src="https://picsum.photos/200" alt="Bali, Indonesia" class="w-full h-56 object-cover" />
+          <div class="p-6">
+            <h2 class="text-lg font-bold text-gray-900">Bali, Indonesia</h2>
+            <p class="text-sm text-gray-500 mt-1">Enjoy tropical beaches and nature.</p>
+
+            <div class="flex items-center justify-between mt-6">
+              <p class="text-sm text-gray-500">
+                <span class="text-orange-500 font-bold text-base">$600</span> / person
+              </p>
+              <a href="#" class="text-sm font-semibold text-gray-800 hover:text-orange-500 transition"> Explore → </a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- yahya -->
       <section class="bg-white">
-        <div
-          class="flex flex-col items-center justify-center gap-6 px-32 py-10 lg:flex-row"
-        >
+        <div class="flex flex-col items-center justify-center gap-6 px-32 py-10 lg:flex-row">
           <div class="flex flex-1">
             <img class="rounded-xl" src="./public/image/image.png" alt="pic" />
           </div>
           <div class="flex flex-col flex-1 gap-2">
             <p class="text-orange-500">ABOUT TRAVELGO</p>
-            <h1 class="text-[31px] font-extrabold">
-              We Make Your Travel Dreams Come True
-            </h1>
+            <h1 class="text-[31px] font-extrabold">We Make Your Travel Dreams Come True</h1>
             <p class="text-justify text-[#B7BABD] leading-loose pb-2">
-              TravelGo is a travel agency dedicated to helping people discover
-              beautiful destinations around the world. Our mission is to make
-              every journey easy, comfortable and unforgettable.
+              TravelGo is a travel agency dedicated to helping people discover beautiful destinations around the world.
+              Our mission is to make every journey easy, comfortable and unforgettable.
             </p>
-            <a
-              class="text-white bg-orange-500 px-5 py-2 rounded-lg w-fit"
-              href=""
-              >Contact Us</a
-            >
+            <a class="text-white bg-orange-500 px-5 py-2 rounded-lg w-fit" href="">Contact Us</a>
           </div>
         </div>
       </section>
